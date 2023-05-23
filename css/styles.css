@@ -139,6 +139,12 @@ body {
   background-color: var(--first-background-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/bg.jpg");
+  background-size: cover;
 }
 
 .hero-container {
