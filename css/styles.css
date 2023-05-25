@@ -213,6 +213,16 @@ body {
   width: 264px;
 }
 
+.feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--second-background-color);
+  border-radius: 4px;
+  height: 112px;
+  margin-bottom: 8px;
+}
+
 .feature-title {
   font-weight: 500;
   font-size: 20px;
@@ -310,6 +320,22 @@ body {
   background-color: #4d5ae5;
 }
 
+/* -----------SECTION 4----------- */
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
 /* -------- PORTFOLIO-FILTER -------- */
 
 .portfolio-section {
