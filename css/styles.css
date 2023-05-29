@@ -59,6 +59,8 @@ body {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -278,6 +280,8 @@ body {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-text-wrap {
@@ -310,6 +314,10 @@ body {
   gap: 24px;
 }
 
+.social-list-icon {
+  fill: #ffffff;
+}
+
 .social-list-link {
   display: flex;
   justify-content: center;
@@ -320,6 +328,10 @@ body {
   background-color: #4d5ae5;
 }
 
+.social-list-link:hover {
+  background-color: #404bbf;
+}
+
 /* -----------SECTION 4----------- */
 
 .customers-list {
@@ -328,14 +340,31 @@ body {
 }
 
 .customers-list-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
+}
+
+.customers-list-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  color: #8e8f99;
 }
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.customers-list-icon {
+  fill: currentColor;
+}
+
 /* -------- PORTFOLIO-FILTER -------- */
 
 .portfolio-section {
@@ -373,6 +402,16 @@ body {
 }
 
 /* -------- CARD CONCEPT -------- */
+
+.link-app {
+  display: block;
+}
+
+.link-app:hover,
+.link-app:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .card-list {
   display: flex;
@@ -463,4 +502,18 @@ body {
 .social-media-list {
   display: flex;
   gap: 16px;
+}
+
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.social-media-link:hover {
+  background-color: #31d0aa;
 }
