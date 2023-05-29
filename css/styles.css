@@ -413,6 +413,10 @@ body {
   padding-bottom: 100px;
 }
 
+.footer-container {
+  display: flex;
+}
+
 .footer-logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -436,4 +440,27 @@ body {
 
 .footer-logo-studio {
   color: var(--second-text-color);
+}
+
+.social-media-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  height: 80px;
+  margin-left: 120px;
+}
+
+.social-media-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 16px;
 }
