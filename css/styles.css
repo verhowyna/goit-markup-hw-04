@@ -138,6 +138,9 @@ body {
 /* -------- HERO -------- */
 
 .hero {
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: var(--first-background-color);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -311,11 +314,12 @@ body {
 
 .social-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
 .social-list-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .social-list-link {
@@ -328,7 +332,8 @@ body {
   background-color: #4d5ae5;
 }
 
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: #404bbf;
 }
 
@@ -454,6 +459,11 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
+}
+
+.logo-wrap {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -486,7 +496,6 @@ body {
   flex-direction: column;
   width: 208px;
   height: 80px;
-  margin-left: 120px;
 }
 
 .social-media-text {
@@ -497,6 +506,10 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+
+.social-media-icon {
+  fill: #f4f4fd;
 }
 
 .social-media-list {
@@ -514,6 +527,7 @@ body {
   background-color: #4d5ae5;
 }
 
-.social-media-link:hover {
+.social-media-link:hover,
+.social-media-link:focus {
   background-color: #31d0aa;
 }
